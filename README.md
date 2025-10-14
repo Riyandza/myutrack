@@ -1,5 +1,11 @@
-# Vue 3 + Vite
+# 🎵 Myutrack
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A minimalist clone of YouTube Music, built using Vue 3, Pinia, Vue Router, and Tailwind CSS.
+This project focuses on recreating the core features of YouTube Music, including:
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+🎧 Homepage with trending and top chart songs
+🔍 Search functionality for artists, albums, and tracks
+📀 Artist/Album Detail Pages with song lists and previews
+▶️ Global Music Player with persistent playback across pages
+
+Powered by the Deezer API, this project allows users to explore songs, preview 30-second tracks, and enjoy a smooth SPA experience.
