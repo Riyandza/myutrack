@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [vue()],
   server: {
     proxy: {
-      '/api': { // Any request to /api will be proxied
+      '/api': { 
         target: 'https://api.deezer.com',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
